@@ -1,0 +1,28 @@
+div.coin {
+    background-color: white;
+    border-radius: 3px;
+    padding: 0;
+}
+
+div.coin div.coin-title {
+    max-width: 100%;
+    border-bottom: 1px solid silver;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+div.coin div.coin-name {
+    font-weight: bold;
+}
+
+div.coin div.data {
+    padding: 8px;
+}
+
+div.coin div.follow-change {
+    font-weight: bold;
+}
+
+div.coin div.data div {
+    font-size: 14px;
+}
