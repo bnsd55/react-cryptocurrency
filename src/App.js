@@ -24,13 +24,6 @@ sagaMiddleware.run(rootSaga)
 export default () => {
 
   useEffect(() => {
-    // const fetchData = async () => {
-    //   let currentAmount = localStorage.getItem("data_amount");
-    //   let apiData = await getDataFromAPI(currentAmount ? currentAmount : 10);
-    //   store.dispatch({ type: "INIT_APP", payload: { allCoins: apiData } });
-    // };
-
-    // fetchData();
     store.dispatch({ type: "FETCH_DATA", payload: { amount: 10 } });
   }, [])
 
